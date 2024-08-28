@@ -1,0 +1,60 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('https://img2.wallspic.com/previews/9/5/9/5/7/175959/175959-close_up-painting-cakes-colored-design-x750.jpg');
+    background-size: 100% 100%;
+
+}
+
+.image-container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.main-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 900;
+    margin: 200px auto;
+    backdrop-filter: blur(50px);
+    box-shadow: 0 1px 5px #00000060;
+    border-radius: 10px;
+}
+
+.login-container{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.login-container > *{
+    flex-basis: 100%;
+}
+
+.login-container input, .login-container button{
+    margin: 5px 90px;
+    padding: 7px;
+    border-radius: 5px;
+    border: 0;
+    box-shadow: 0 1px 5px #00000042;
+}
+
+.small-text{
+    font-size: 10px;
+}
+
+.no-margin button{
+        margin: 0;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+a {
+    text-decoration: unset;
+}
